@@ -9,7 +9,7 @@ $('.page-scroll').on('click', function (e) {
 
 $(window).scroll(function () {
         var wScroll = $(this).scrollTop();
-        console.log(wScroll / 1000);
+        // console.log(wScroll / 1000);
         $('.jumbotron img').css({
                 'transform': 'translate(0px, ' + wScroll / 2.5 + '%)'
         });
